@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
+
+
+.titleButton {
+  width: 80%;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1em;
+  /* padding: 10px; */
+  color: #FFF;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
+.btnLightBlue {
+  background: #1d1e22;
+}
+
+
+/* BORDER */
+
+.btnLightBlue.btnBorder {
+  box-shadow: 0px 0px 0px 0px #58afd1;
+}
+
+.btnLightBlue.btnBorder:hover {
+  box-shadow: 0px 0px 0px 5px #58afd1;
+}
+
+

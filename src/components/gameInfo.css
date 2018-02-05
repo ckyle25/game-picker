@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
+
+.headerInfoTextStyle {
+    color: #FFF;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.descriptionTextStyle {
+    color: #FFF;
+    font-size: 1.25em;
+    height: 100%;
+    width: 70%; 
+}
+
+.gameContainer {
+    width: 300px;
+    height: 150px;
+    margin-top: 5px;
+    border: 2px solid #A51717;
+    overflow: auto;
+}
+
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+}
+
+.contentContainer img {
+    width: 25%;
+    height: 100%;
+    object-fit: fill
+}
+
+
