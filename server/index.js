@@ -2,10 +2,10 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const gc = require('./controllers/game_controller.js')
-const config = require('../src/config');
+// const config = require('../src/config');
 const router = express.Router();
 const request = require('request');
-const axios = require('axios');
+// const axios = require('axios');
 
 let app = express();
 app.use(bodyParser.json());
@@ -38,4 +38,4 @@ app.get('/game',(req,res,next) => {
 
 // module.exports = router;
 
-app.listen(3001,() => console.log('Im Listening'));
+app.listen(3001,() => console.log('Im Listening on port 3001'));
